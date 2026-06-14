@@ -57,7 +57,7 @@ Feel free to connect with me!
 - **GitHub:** [imeaysin](https://github.com/imeaysin)
 - **LinkedIn:** [Eaysin Mia](https://www.linkedin.com/in/imeaysin/)
 - **X/Twitter:** [@imeaysin](https://x.com/imeaysin)
-- **Email:** [eaysin.dev@gmail.com](mailto:eaysin.dev@gmail.com)
+- **Email:** [eaysin.official@gmail.com](mailto:eaysin.official@gmail.com)
 
 ---
 

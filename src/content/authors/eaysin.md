@@ -6,5 +6,5 @@ bio: 'Full Stack Engineer | MERN | ERP & Healthcare Systems | Diving into AI/ML 
 website: 'https://imeaysin.vercel.app/'
 github: 'https://github.com/imeaysin'
 linkedin: 'https://www.linkedin.com/in/imeaysin/'
-mail: 'eaysin.dev@gmail.com'
+mail: 'eaysin.official@gmail.com'
 ---
