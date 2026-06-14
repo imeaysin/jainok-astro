@@ -1,7 +1,6 @@
 ---
 import AvatarComponent from '@/components/ui/avatar'
 import { cn } from '@/lib/utils'
-import type { SocialLink } from '@/types'
 import type { CollectionEntry } from 'astro:content'
 
 interface Props {
@@ -10,16 +9,6 @@ interface Props {
 
 const { author } = Astro.props
 const { name, avatar, bio, pronouns } = author.data
-const currentPath = Astro.url.pathname
-const isAuthorPage = currentPath === `/authors/${author.id}`
-
-const socialLinks: SocialLink[] = [
-  author.data.website && { href: author.data.website, label: 'Website' },
-  author.data.github && { href: author.data.github, label: 'GitHub' },
-  author.data.twitter && { href: author.data.twitter, label: 'Twitter' },
-  author.data.linkedin && { href: author.data.linkedin, label: 'LinkedIn' },
-  author.data.mail && { href: `mailto:${author.data.mail}`, label: 'Email' },
-].filter(Boolean) as SocialLink[]
 ---
 
 <div
